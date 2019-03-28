@@ -42,7 +42,7 @@
 
             android:layout_width="match_parent"
 
-            android:layout_height="300dp"
+            android:layout_height="350dp"
 
             android:layout_marginTop="10dp"
 
@@ -89,8 +89,6 @@
 
                 android:id="@+id/radio42"
 
-                android:layout_alignTop="@+id/radioGroup"
-
                 android:layout_centerHorizontal="true"
 
                 android:textSize="40sp"/>
@@ -122,6 +120,22 @@
                 android:id="@+id/radio44"
 
                 android:textSize="40sp"/>
+      
+      <RadioButton
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Others"
+
+                android:id="@+id/radio45"
+
+                android:layout_centerHorizontal="true"
+
+                android:textSize="40sp"/>
+
+
 
 
 
