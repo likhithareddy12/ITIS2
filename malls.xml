@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/llmall">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Showing the malls near by you"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:id="@+id/malltv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/mallrg">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inorbit mall"
+                android:id="@+id/mallr1"
+                android:textSize="35sp"
+        />
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mantra mall"
+                android:id="@+id/mallr2"
+                android:layout_alignTop="@+id/radioGroup"
+                android:layout_centerHorizontal="true"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City Capital mall"
+                android:id="@+id/mallr3"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gacchibowli Central"
+                android:id="@+id/mallr4"
+                android:textSize="35sp"/>
+
+    </RadioGroup>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select "
+            android:textSize="30sp"
+            android:id="@+id/selmall"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="125dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"/>
+
+</LinearLayout>

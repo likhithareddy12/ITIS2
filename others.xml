@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/llother">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Showing other places near by you"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:id="@+id/othertv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/otherrg">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continental Hospitals"
+                android:id="@+id/otherr1"
+                android:textSize="35sp"
+        />
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Narsingi police station"
+                android:id="@+id/otherr2"
+                android:layout_alignTop="@+id/radioGroup"
+                android:layout_centerHorizontal="true"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire Station Madhapur"
+                android:id="@+id/otherr3"
+                android:textSize="35sp"/>
+
+    </RadioGroup>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select "
+            android:textSize="30sp"
+            android:id="@+id/selother"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="125dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"/>
+
+</LinearLayout>

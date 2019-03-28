@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/llhotels">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Showing the hotels near by you"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:id="@+id/hotelstv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/hotelsrg">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hyatt Hyderabad"
+                android:id="@+id/hotelsr1"
+                android:textSize="35sp"
+        />
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LemonTree hotel"
+                android:id="@+id/hotelsr2"
+                android:layout_alignTop="@+id/radioGroup"
+                android:layout_centerHorizontal="true"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radisson"
+                android:id="@+id/hotelsr3"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Westin"
+                android:id="@+id/hotelsr4"
+                android:textSize="35sp"/>
+
+    </RadioGroup>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select "
+            android:textSize="30sp"
+            android:id="@+id/selhotels"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="125dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"/>
+
+</LinearLayout>

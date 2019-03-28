@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/llrest">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Showing the restaurants near by you"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:id="@+id/resttv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/restrg">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sandwicho"
+                android:id="@+id/restr1"
+                android:textSize="35sp"
+        />
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penalty box"
+                android:id="@+id/restr2"
+                android:layout_centerHorizontal="true"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Namana"
+                android:id="@+id/restr3"
+                android:textSize="35sp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subway"
+                android:id="@+id/restr4"
+                android:textSize="35sp"/>
+
+    </RadioGroup>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select "
+            android:textSize="30sp"
+            android:id="@+id/selrest"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="125dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"/>
+
+</LinearLayout>
